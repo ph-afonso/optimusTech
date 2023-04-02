@@ -10,7 +10,7 @@
 .contato__titulo {
     color: var(--color-tertiary);
     font-weight: 600;
-    font-size: .9em;
+    font-size: 1em;
     letter-spacing: -2%;
 }
 
@@ -23,9 +23,11 @@
 .contato__news {
     display: flex;
     margin: 1em 0;
+    width: 100%;
 }
 
 .news__email {
+    width: 80%;
     border: 0.06em solid var(--color-secundary);
     padding: .5em;
     border-radius: .5em 0 0 .5em;
@@ -42,6 +44,7 @@
 }
 
 .news__botao {
+    width: 20%;
     border-radius: 0em .5em .5em 0;
     font-size: 1em;
 }

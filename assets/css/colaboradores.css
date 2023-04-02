@@ -8,7 +8,7 @@
 
 .colaboradores__headline {
     font-weight: 600;
-    font-size: .7em;
+    font-size: .8em;
     color: var(--color-primary);
     margin-bottom: .8em;
 }
@@ -29,7 +29,7 @@
 }
 
 .perfil__img {
-    width: 30%;
+    width: 25%;
     border-radius: 4em;
 }
 
@@ -42,5 +42,5 @@
 .perfil__cargo {
     color: var(--color-secundary);
     font-weight: 400;
-    font-size: .7em;
+    font-size: .8em;
 }

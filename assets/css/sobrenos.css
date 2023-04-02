@@ -12,7 +12,7 @@
 
 .sobrenos__headline {
     font-weight: 600;
-    font-size: .8em;
+    font-size: 1em;
     color: var(--color-primary);
     margin-bottom: .8em;
 }
@@ -20,14 +20,14 @@
 .sobrenos__titulo {
     color: var(--color-tertiary);
     font-weight: 600;
-    font-size: 1em;
+    font-size: 1.3em;
     letter-spacing: -2%;
     margin-bottom: 1em;
 }
 
 .sobrenos__texto {
     color: var(--color-secundary);
-    font-size: .65em;
+    font-size: .8em;
     font-weight: 400;
 }
 
@@ -53,11 +53,11 @@
 .numeros__titulo {
     color: var(--color-tertiary);
     font-weight: 500;
-    font-size: 1em;
+    font-size: 1.3em;
 }
 
 .numeros__texto {
     color: var(--color-secundary);
     font-weight: 400;
-    font-size: .65em;
+    font-size: .8em;
 }
