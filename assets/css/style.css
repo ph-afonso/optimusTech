@@ -1,0 +1,26 @@
+/* Imports CSS */
+@import url('reset.css');
+@import url('menu.css');
+@import url('sobrenos.css');
+@import url('vagas.css');
+@import url('colaboradores.css');
+@import url('contato.css');
+
+/* Fontes */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+    --font-primary: 'Inter', sans-serif;
+    --color-matriz: #FFF;
+    --color-primary: #8E2424;
+    --color-secundary: #667085;
+    --color-tertiary: #101828;
+    --color-quaternary: #EAECF0;
+
+    --background-colaboradores:rgba(196, 25, 25, 0.03);
+    --background-contato: #F9FAFB;
+}
+
+body {
+    font-family: var(--font-primary);
+}

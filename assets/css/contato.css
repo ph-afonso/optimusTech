@@ -1,0 +1,55 @@
+.contato {
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+    align-items: center;
+    background-color: var(--background-contato);
+    padding: .8em;
+}
+
+.contato__titulo {
+    color: var(--color-tertiary);
+    font-weight: 600;
+    font-size: .9em;
+    letter-spacing: -2%;
+}
+
+.contato__texto {
+    color: var(--color-secundary);
+    font-size: .65em;
+    font-weight: 400;
+}
+
+.contato__news {
+    display: flex;
+    margin: 1em 0;
+}
+
+.news__email {
+    border: 0.06em solid var(--color-secundary);
+    padding: .5em;
+    border-radius: .5em 0 0 .5em;
+}
+
+.news__email:focus {
+    outline: none;
+    border: 0.06em solid var(--color-primary);
+}
+
+.news__email::placeholder {
+    color: var(--color-tertiary);
+    font-family: var(--font-primary);
+}
+
+.news__botao {
+    border-radius: 0em .5em .5em 0;
+    font-size: 1em;
+}
+
+.copy {
+    margin-top: 1em;
+    color: var(--color-secundary);
+    text-align: center;
+    font-size: .7em;
+    font-weight: 500;
+}

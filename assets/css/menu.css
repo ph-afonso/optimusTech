@@ -1,0 +1,58 @@
+.menu {
+    background-color: var(--color-matriz);
+    width: 100%;
+    border-bottom: 0.06em solid var(--color-secundary);
+}
+.menu__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1em .5em;
+}
+
+.menu__links__container img {
+    margin-right: 1.6em;
+}
+
+.menu__links {
+    display: flex;
+    align-items: center;
+    gap: 1.5em;
+}
+
+.menu__links__link .home{
+    margin-right: auto;
+} 
+
+.menu__links__link {
+    font-size: 1.30em;
+    font-weight: 500;
+    color: var(--color-secundary);
+}
+
+.menu__butoes {
+    display: flex;
+    align-items: center;
+    gap: .5em;
+}
+
+.botao__outiline {
+    font-size: 1em;
+    font-weight: 500;
+    color: var(--color-secundary);
+    background-color: transparent;
+    border-radius: 1em;
+    border: 0.06em solid var(--color-secundary);
+    padding: .5em;
+}
+
+.botao {
+    width: 80%;
+    font-size: 1em;
+    font-weight: 500;
+    border-radius: .5em;
+    color: var(--color-matriz);
+    padding: .5em;
+    background-color: var(--color-primary);
+    border: 0.06em solid var(--color-primary);
+}

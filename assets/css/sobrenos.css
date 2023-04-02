@@ -1,0 +1,63 @@
+.sobrenos {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1em;
+}
+.sobrenos__apresentacao {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 .5em;
+}
+
+.sobrenos__headline {
+    font-weight: 600;
+    font-size: .8em;
+    color: var(--color-primary);
+    margin-bottom: .8em;
+}
+
+.sobrenos__titulo {
+    color: var(--color-tertiary);
+    font-weight: 600;
+    font-size: 1em;
+    letter-spacing: -2%;
+    margin-bottom: 1em;
+}
+
+.sobrenos__texto {
+    color: var(--color-secundary);
+    font-size: .65em;
+    font-weight: 400;
+}
+
+.sobrenos__numeros {
+    margin-top: 1em;
+    padding: 1em 0;
+    text-align: center;
+}
+
+.numeros__container {
+    display: flex;
+    flex-direction: column;
+    gap: .75em;
+    padding: 1.7em;
+}
+
+.numeros__headline {
+    color: var(--color-primary);
+    font-weight: 600;
+    font-size: 1.5em;
+}
+
+.numeros__titulo {
+    color: var(--color-tertiary);
+    font-weight: 500;
+    font-size: 1em;
+}
+
+.numeros__texto {
+    color: var(--color-secundary);
+    font-weight: 400;
+    font-size: .65em;
+}
