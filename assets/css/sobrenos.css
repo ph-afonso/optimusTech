@@ -61,3 +61,40 @@
     font-weight: 400;
     font-size: .8em;
 }
+
+@media screen and (min-width: 768px) {
+    .sobrenos__headline {
+        font-size: 1.3em;
+    }
+
+    .sobrenos__titulo {
+        font-size: 1.5em;
+    }
+
+    .sobrenos__texto {
+        width: 50%;
+        font-size: 1em;
+    }
+
+    .sobrenos__apresentacao {
+       align-items: center;
+    }
+
+    .numeros__container {
+        align-items: center;
+    }
+
+    .numeros__headline {
+        font-size: 1.8em;
+    }
+    
+    .numeros__titulo {
+        font-size: 1.6em;
+    }
+    
+    .numeros__texto {
+        width: 60%;
+        font-size: 1.1em;
+    }
+
+}

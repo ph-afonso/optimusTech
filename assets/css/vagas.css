@@ -85,3 +85,38 @@
     color: var(--color-secundary);
     font-size: .8em;
 }
+
+@media screen and (min-width: 768px) {
+    .vagas__headline {
+        width: 30%;
+        font-size: 1.3em;
+    }
+
+    .vagas__titulo {
+        font-size: 1.5em;
+    }
+
+    .vagas__texto {
+        font-size: 1em;
+    }
+    
+    .banner {
+        height: 50vh;
+    }
+
+    .vaga__container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: .5em;
+    }
+
+    .vaga__headline {
+        width: 100%;
+        font-size: 1.3em;
+    }
+    .vaga__descricao {
+        flex: 1;
+        padding: 2em .6em;
+    }
+    
+}

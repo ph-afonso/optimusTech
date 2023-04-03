@@ -10,24 +10,30 @@
     margin: 1em .5em;
 }
 
-.menu__links__container img {
-    margin-right: 1.6em;
-}
-
 .menu__links {
     display: flex;
     align-items: center;
     gap: 1.5em;
 }
+.link__logo {
+    margin-right: 1.6em;
+}
 
-.menu__links__link .home{
-    margin-right: auto;
+.link__logotipo{
+   display: none;
 } 
 
 .menu__links__link {
+    display: flex;
+    align-items: center;
     font-size: 1.30em;
     font-weight: 500;
     color: var(--color-secundary);
+    text-decoration: none;
+}
+
+.link__descricao {
+    display: none;
 }
 
 .menu__butoes {
@@ -36,7 +42,14 @@
     gap: .5em;
 }
 
+.botao__descricao {
+    display: none;
+}
+
 .botao__outiline {
+    display: flex;
+    gap: .3em;
+    align-items: center;
     font-size: 1em;
     font-weight: 500;
     color: var(--color-secundary);
@@ -47,6 +60,9 @@
 }
 
 .botao {
+    display: flex;
+    gap: .3em;
+    align-items: center;
     width: 80%;
     font-size: 1em;
     font-weight: 500;
@@ -55,4 +71,36 @@
     padding: .5em;
     background-color: var(--color-primary);
     border: 0.06em solid var(--color-primary);
+}
+
+@media screen and (min-width: 768px) {
+    .menu__links__link {
+        gap: .3em;
+    }
+
+    .link__logotipo {
+        display: inline;
+        margin-right: 3em;
+        color: var(--color-quinternery);
+        font-weight: 500;
+    }
+    
+    .link__logo {
+        margin-right: 0em;
+    }
+
+    .menu__links__link {
+        font-size: 1.20em;
+    }
+
+    .link__descricao {
+        display: inline;
+        font-size: .8em;
+    }
+
+    .botao__descricao {
+        display: inline;
+        font-size: .8em;
+    }
+    
 }
