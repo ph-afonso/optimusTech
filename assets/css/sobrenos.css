@@ -98,3 +98,50 @@
     }
 
 }
+
+@media screen and (min-width: 1024px) {
+    
+    .sobrenos__headline {
+        font-size: 1.5em;
+    }
+
+    .sobrenos__titulo {
+        font-size: 1.8em;
+    }
+
+    .sobrenos__texto {
+        width: 50%;
+        font-size: 1.3em;
+    }
+
+    .sobrenos__apresentacao {
+        border-top: 0.06em solid var(--color-secundary);
+        border-bottom: 0.06em solid var(--color-secundary);
+        padding: 3em 0;
+        margin: 0;
+        align-items: center;
+    }
+    .sobrenos__numeros {
+        display: flex;
+        border-bottom: 0.06em solid var(--color-secundary);
+        padding: 4em 0;
+        justify-content: space-between;
+    }
+
+    .sobrenos__numeros hr{
+        display: none;
+    }
+
+    .numeros__container {
+        padding: .3em;
+    }
+    
+    .numeros__titulo {
+        font-size: 1em;
+    }
+    
+    .numeros__texto {
+        width: 80%;
+    }
+
+}
