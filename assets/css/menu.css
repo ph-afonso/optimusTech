@@ -110,6 +110,10 @@
         gap: 4em;
     }
 
+    .menu__links__link:hover {
+        color: var(--color-primary);
+    }
+
     .link__logo {
         width: 2em;
     }
@@ -124,6 +128,16 @@
 
     .botao__descricao {
         font-size: 1.2em;
+    }
+
+    .botao__outiline:hover {
+        background-color: var(--color-secundary);
+        color: var(--color-matriz);
+    }
+
+    .botao:hover {
+        background-color: var(--color-matriz);
+        color: var(--color-primary);
     }
     
 }

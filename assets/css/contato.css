@@ -78,3 +78,28 @@
         font-size: 1em;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    body {
+        overflow-x: hidden;
+    }
+    .contato__titulo {
+        font-size: 1.5em;
+
+    }
+    
+    .contato__texto {
+        font-size: 1.3em;
+    }
+
+    .contato__news {
+        width: 50%;
+    }
+    .news__botao {
+        width: 20%;
+    }
+
+    .copy {
+        font-size: 1em;
+    }
+}

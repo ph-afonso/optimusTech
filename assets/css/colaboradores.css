@@ -72,3 +72,32 @@
         font-size: 1em;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .colaboradores {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .colaboradores__headline {
+        font-size: 1.3em;
+    }
+
+    .colaboradores__titulo {
+        width: 60%;
+        font-size: 1.5em;
+    }
+
+    .perfil__img {
+        width: 20%;
+        border-radius: 6em;
+    }
+
+    .perfil__nome {
+        font-size: 1.5em;
+    }
+    
+    .perfil__cargo {
+        font-size: 1.3em;
+    }
+}
